@@ -1,4 +1,4 @@
-# Chest X-Ray Classification Using Deep Learning
+# Chest X-Ray Classification 
 
 <p align="center">
   <img src="figures/sample_xray.png" width="220">
