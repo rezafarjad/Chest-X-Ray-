@@ -15,6 +15,7 @@
 .
 ├── notebook/
 │   └── chest_xray_classification.ipynb
+├── └── Report.pdf
 ├── figures/
 │   ├── sample_xray.png
 │   ├── confusion_matrix.png
