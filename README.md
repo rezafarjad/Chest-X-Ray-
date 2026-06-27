@@ -132,8 +132,8 @@ After duplicate removal, the dataset was split into:
 
 ---
 
-## Sources
-Italian Society of Medical and Interventional Radiology (SIRM) COVID-19 DATABASE, Novel Corona Virus 2019 Dataset developed by Joseph Paul Cohen ,images extracted from different publications
+
+
 
 ## DATA ACCESS AND USE: Academic/Non-Commercial Use 
 
