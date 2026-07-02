@@ -18,7 +18,6 @@ The project compares a custom CNN baseline with a MobileNet transfer-learning mo
 |-- chest_xray_classification.ipynb
 |-- README.md
 |-- report.pdf
-|-- Updated_Report.docx
 `-- report_assets/
 ```
 
