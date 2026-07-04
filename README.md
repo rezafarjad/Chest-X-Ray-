@@ -18,7 +18,6 @@ The project compares a small custom CNN baseline with MobileNetV2 transfer learn
 | File or folder | Description |
 |---|---|
 | `chest_xray.ipynb` | Main notebook containing the complete workflow |
-| `FINAL_REPORT.md` | Academic report draft based on the notebook results |
 | `output/pdf/Chest_XRay_Classification_Report.pdf` | Final PDF report following the 13-section project template |
 | `report_assets/` | Figures extracted from the executed notebook |
 
