@@ -1,6 +1,4 @@
-# Automated Chest X-ray Classification
-
-Minimal PyTorch notebook for automated four-class chest X-ray classification using the COVID-19 Radiography Database.
+# Chest X-ray Classification
 
 ## Project Overview
 
