@@ -92,10 +92,7 @@ Best model: MobileNetV2 with learning rate 0.0003 and weight decay 0.0001.
 
 Lung_Opacity had the lowest recall and was the most challenging class for the model.
 
-## Workflow overview 
 
-
-![an overview of total workflow](report_assets/overall.png)
 
 
 
