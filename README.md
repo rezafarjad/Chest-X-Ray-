@@ -1,4 +1,4 @@
-# Chest X-ray Classification
+# Automated Chest X-ray Classification
 
   
 ## Project Overview
