@@ -92,13 +92,12 @@ Best model: MobileNetV2 with learning rate 0.0003 and weight decay 0.0001.
 
 Lung_Opacity had the lowest recall and was the most challenging class for the model.
 
-## Grad-CAM Explainability
+## Workflow overview 
 
-The notebook includes Grad-CAM visualization for the final MobileNetV2 model. It saves one correct example per class and two misclassified examples.
 
-![Grad-CAM COVID](report_assets/gradcam_correct_covid.png)
+![an overview of total workflow](report_assets/overall.png)
 
-![Grad-CAM Lung Opacity misclassified as Normal](report_assets/gradcam_misclassified_lung_opacity_as_normal.png)
+
 
 ## Reproducibility Notes
 
@@ -125,7 +124,7 @@ The notebook installs required packages inside Colab where needed.
 
 ## Edge AI Direction
 
-MobileNetV2 was selected partly because it is lightweight and suitable for future Edge AI preparation. The current notebook focuses on training, evaluation, and explainability. Future deployment work should add ONNX or TorchScript export, quantization, model-size reporting, and inference-time benchmarking on CPU or edge hardware.
+MobileNetV2 was selected partly because it is lightweight and suitable for future Edge AI preparation. The current notebook focuses on training, evaluation, and explainability. Future deployment work should add  quantization, model-size reporting, and benchmarking on CPU or edge hardware.
 
 ## Limitations
 
