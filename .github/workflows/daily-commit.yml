@@ -1,0 +1,33 @@
+name: Daily Commit
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-commit
+  cancel-in-progress: false
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Add today's log entry
+        run: |
+          echo "## $(date +'%Y-%m-%d')" >> daily-log.md
+          echo "- Automated daily update." >> daily-log.md
+          echo "" >> daily-log.md
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add daily-log.md
+          git commit -m "Daily log: $(date +'%Y-%m-%d')" || echo "Nothing to commit"
+          git push
